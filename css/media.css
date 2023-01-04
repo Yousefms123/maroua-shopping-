@@ -1,0 +1,99 @@
+@media (max-width: 575px) {
+   .content-sign-up-right {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .sign-page {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+      height: 100%;
+   }
+   .email-sign-up {
+      display: flex;
+      flex-direction: column;
+   }
+   .content-sign-up-right .desc-right-signup h1 {
+      font-size: 2rem;
+   }
+   .content-sign-up-right .desc-right-signup p,
+   .avatars p {
+      font-size: 13px;
+   }
+   .left .sign-up-left p {
+      font-size: 13px;
+   }
+   .left .sign-up-left h1 {
+      font-size: 1.7rem;
+   }
+   .qus-account,
+   .not-account {
+      width: 100%;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .qus-account div {
+      display: flex;
+      flex-direction: column;
+   }
+   .form-login {
+      width: 90%;
+      margin: auto;
+   }
+   .content-overlay-login .content-sign-up-right {
+      width: 80%;
+   }
+   .form-creat-account {
+      padding-top: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 90%;
+      margin: auto;
+   }
+   .success-create {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 70%;
+      margin: auto;
+      text-align: center;
+      height: 100vh;
+   }
+   .success-create p {
+      color: var(--color-heading);
+   }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+   .sign-page {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+      height: 100%;
+   }
+   .content-overlay-login .content-sign-up-right {
+      width: 80%;
+   }
+   .form-creat-account {
+      padding-top: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 90%;
+      margin: auto;
+   }
+
+}
